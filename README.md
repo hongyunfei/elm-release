@@ -12,7 +12,9 @@
 2. 解压文件
 3. 修改config.yaml配置文件(注意格式 - auth: 后面有个空格)
 4. 饿了么cookie获取：[https://air.tb.ele.me/app/conch-page/svip-home-tasklist-new/home](https://air.tb.ele.me/app/conch-page/svip-home-tasklist-new/home)
-5. 可选参数 -debug 将日志输出到本目录下的文件，方便调试 -task 手动执行任务 (默认执行定时任务，需要将程序挂在后台)
+5. 可选参数 
+   - `-debug` 将日志输出到本目录下的文件，方便调试 
+   - `-task` 手动执行任务 (默认执行定时任务，需要将程序挂在后台)
 
 # 目前已实现功能
 
