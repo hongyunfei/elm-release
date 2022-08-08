@@ -1,6 +1,8 @@
 # elm-release
  饿了么吃货豆工具
  
+ ![GitHub watchers](https://img.shields.io/github/watchers/zelang/elm-release)
+ ![GitHub forks](https://img.shields.io/github/forks/zelang/elm-release)
  ![GitHub Repo stars](https://img.shields.io/github/stars/zelang/elm-release)
  ![GitHub release (latest by date)](https://img.shields.io/github/downloads/zelang/elm-release/latest/total)
 
