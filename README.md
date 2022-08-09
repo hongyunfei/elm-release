@@ -47,7 +47,11 @@
   - exchange 是否开启饿了么10元优惠券兑换
   - cron 定时任务 参考：https://tool.lu/crontab/
 
+1.3
+- 支持TgBot / ServerChan消息通知
+- 修复获取任务列表失败
+- 更新`config.yaml`配置文件参数
+
 # To do list
 
-1. 任务执行消息通知
-2. ....
+1. ....
