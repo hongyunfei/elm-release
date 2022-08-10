@@ -10,7 +10,7 @@
 
 # 使用说明
 
-1. 请在 [Releases](https://github.com/zelang/elm-release/releases) 根据你的设备下载二进制文件
+1. 请在 [Releases](https://github.com/zelang/elm-release/releases) 根据你的设备下载二进制文件 ([Docker版安装点击这里](https://github.com/zelang/elm-docker))
 2. 解压文件
 3. 修改`config.yaml`配置文件(注意格式 - auth: 后面有个空格)
 4. 饿了么cookie获取(推荐抓包饿了么APP)：[https://air.tb.ele.me/app/conch-page/svip-home-tasklist-new/home](https://air.tb.ele.me/app/conch-page/svip-home-tasklist-new/home)
