@@ -13,7 +13,8 @@
 1. 请在 [Releases](https://github.com/zelang/elm-release/releases) 根据你的设备下载二进制文件 ([Docker版安装点击这里](https://github.com/zelang/elm-docker))
 2. 解压文件
 3. 修改`config.yaml`配置文件(注意格式 - auth: `b422da5b501437b08ce78af4fd1ea2a6`)
-4. 饿了么cookie获取(推荐使用`Alook`浏览器 饿了么`H5`抓包)：[https://air.tb.ele.me/app/conch-page/svip-home-tasklist-new/home](https://air.tb.ele.me/app/conch-page/svip-home-tasklist-new/home)
+4. ~饿了么cookie获取(推荐使用`Alook`浏览器 饿了么`H5`抓包)：[https://air.tb.ele.me/app/conch-page/svip-home-tasklist-new/home](https://air.tb.ele.me/app/conch-page/svip-home-tasklist-new/home)~<br>
+   最新版本(`1.4`)需要抓取微信小程序(饿了么)的cookie，iPhone推荐使用`Stream`软件进行抓包，安卓端推荐使用`Httpcanary`软件进行抓包，抓包域名：`waimai-guide.ele.me`，程序将自动检测cookie是否符合运行要求，如不符合请重新抓取
 5. 可选参数 
    - `-debug` 将日志输出到本目录下的文件，方便调试 
    - `-task` 手动执行任务 (默认执行定时任务，需要将程序挂在后台)
@@ -52,6 +53,14 @@
 - 支持TgBot / ServerChan消息通知
 - 修复获取任务列表失败
 - 更新`config.yaml`配置文件参数
+
+1.4
+- 模拟饿了么微信小程序，需要抓取小程序cookie
+- 优化任务执行失败延迟时间
+- 自动检测cookie参数是否符合执行任务要求
+- 更新隐藏任务，可获取更多的吃货豆
+- 修复自动删除配置的问题
+- 修复未登录状态下仍然执行任务的问题
 
 # 注意事项
 
