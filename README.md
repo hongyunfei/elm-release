@@ -7,6 +7,6 @@
 
 # How to use
 
-Dowload the binary: [Releases](https://github.com/zelang/elm/releases)
+Dowload the binary: [Releases](https://github.com/zelang/elm-release/releases)
 
 Tutorial: Redirect to [Here](https://zelang.tk/post/elm-tool-use-tutorial/)
