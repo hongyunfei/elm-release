@@ -11,7 +11,7 @@ check_system() {
     arch="arm64"
   elif [[ $arch == "x86" || $arch == "i386" || $arch == "x86_64" || $arch == "x64" ]]; then
     arch="386"
-  elif [[ $arch == "arm" || $arch == "armv71" ]]; then
+  elif [[ $arch == "arm" || $arch == "armv7l" ]]; then
     arch="arm"
   else
     echo -e "[Error] 检测架构失败，请尝试切换设备或联系作者"
