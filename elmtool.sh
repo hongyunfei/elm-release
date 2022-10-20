@@ -5,11 +5,11 @@
 cur_dir=$(pwd)
 check_system() {
   arch=$(arch)
-  if [[ $arch == "amd64" ]]; then
+  if [[ $arch == "amd64" || $arch == "x86_64" || $arch == "x64" ]]; then
     arch="amd64"
   elif [[ $arch == "aarch64" || $arch == "arm64" ]]; then
     arch="arm64"
-  elif [[ $arch == "x86" || $arch == "i386" || $arch == "x86_64" || $arch == "x64" ]]; then
+  elif [[ $arch == "x86" || $arch == "i386" ]]; then
     arch="386"
   elif [[ $arch == "arm" || $arch == "armv7l" ]]; then
     arch="arm"
